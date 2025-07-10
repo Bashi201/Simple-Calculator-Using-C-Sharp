@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lb_Result = new System.Windows.Forms.Label();
             this.tb_Result = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -284,6 +285,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(295, 402);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button17);
@@ -307,6 +309,7 @@
             this.Controls.Add(this.tb_Result);
             this.Controls.Add(this.lb_Result);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
