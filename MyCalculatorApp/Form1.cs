@@ -103,5 +103,15 @@ namespace MyCalculatorApp
             operation = ""; // Reset operation after calculation
             is_Operation_Performed = true;
         }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
